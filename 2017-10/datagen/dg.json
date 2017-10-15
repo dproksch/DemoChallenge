@@ -1,0 +1,37 @@
+{ 
+    "plantInfo": {
+	"plantNumber": "00",
+	"plantBoothCount": "1",
+	"plantPostalCode": "48359"
+    },
+    "environmentInfo": {
+	"startingTemp": "70",
+	"tempDirection": "up",
+	"startingHumidity": "50",
+	"humidityDirection": "up",
+	"airFlow": "00",
+	"airPressureInside": 1800,
+	"airPressureOutside": 1800,
+	"airPressureDirection": "steady"
+    }, 
+    "airQualityInfo": {
+	"ppm":  "100",
+	"ppmDirection": "up",
+	"filterQuality": "good"
+    },
+    "durationInfo": {
+        "seed": "65",
+	"startDate": "2017-01-01",
+	"numberofDays": "1",
+        "shifts": {
+		"first":  "0600:1400",
+		"second": "1400:2200",
+		"third":  "2200:0600"
+        },
+	"ticks": "10",
+	"_comment": {
+		"_seed": "Used to see the random generators for reproduction",
+		"_ticks": "The number of second increments from the start date"
+        }
+   }
+}
