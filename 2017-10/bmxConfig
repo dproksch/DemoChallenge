@@ -1,0 +1,13 @@
+#
+# Configuration file for private BMX information, like API Keys
+#
+# 0.  Copy this file to .bmxConfig
+# 1.  Edit .bmxConfig and replace 
+# 1.1   "Change Me!" with your own API key
+# 1.2   "My ORG" with your own org
+# 1.3   "My SPACE" with your own space
+#   
+API_KEY="Change Me!"
+BX=/usr/local/bin/bx
+ORG="My ORG"
+SPACE_NAME="My SPACE"
